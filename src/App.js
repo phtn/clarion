@@ -34,6 +34,7 @@ class App extends Component {
   render() {
     return (
       <div style={container}>
+        
         <div style={nh}>
         NEW HOPE
         </div>
@@ -43,7 +44,7 @@ class App extends Component {
         <div style={lv}>
         LAMBERTVILLE
         </div>
-        test
+        
       </div>
     );
   }
