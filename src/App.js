@@ -27,6 +27,7 @@ const logo = {
   borderRadius: 200,
   //border: '2px solid gray'
   marginTop: 10,
+  boxShadow: '2px 2px 2px 1px rgba(0, 0, 0, 0.2)'
 }
 const nh = {
   //border:'1px solid red',
@@ -49,6 +50,7 @@ const lv = {
 }
 
 const layout = new Layout()
+
 
 const Main = observer (
   class App extends Component {
