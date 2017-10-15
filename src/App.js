@@ -12,9 +12,9 @@ import Nav from './components/Nav'
 
 const container = {
   display: 'flex',
-  //alignItems: 'center',
   justifyContent: 'center',
   width: window.innerWidth,
+  //border: '1px solid red',
 }
 const content = {
   display: 'flex',
@@ -55,14 +55,21 @@ const layout = new Layout()
 const Main = observer (
   class App extends Component {
     componentDidMount(){
-      layout.shrink()
+      window.addEventListener('resize', ()=> {
+        layout.resizedWidth(window.innerWidth)
+      })
+    }
+    componentWillUnmount(){
+      window.removeEventListener('resize', ()=> {
+        layout.resizedWidth(window.innerWidth)
+      })
     }
     render() {
       return (
-        <div>
+        <div >
         <div style={container}>
           
-          <div style={nh}>
+          <div style={layout.nh}>
           NEW HOPE
           </div>
           <div >
@@ -74,7 +81,7 @@ const Main = observer (
               className='animated fadeIn'
               alt=''/>
           </div>
-            <div style={lv}>
+            <div style={layout.lv}>
               LAMBERTVILLE
             </div>
           </div>
