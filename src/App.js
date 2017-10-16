@@ -10,10 +10,7 @@ import Layout from './observables/Layout'
 // components
 import Nav from './components/Nav'
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 7a17cbd3b84e8f9058f3e4d81b2b110e3a4c0aa9
 const container = {
   display: 'flex',
   justifyContent: 'center',
@@ -33,29 +30,7 @@ const logo = {
   marginTop: 10,
   boxShadow: '2px 2px 2px 1px rgba(0, 0, 0, 0.2)'
 }
-<<<<<<< HEAD
 
-=======
-const nh = {
-  //border:'1px solid red',
-  marginRight: 50,
-  marginTop: 50,
-  fontFamily: 'Roboto, sans-serif',
-  fontWeight: 100,
-  fontSize: 24,
-  color: 'gray'
-}
-const lv = {
-  //border:'1px solid red',
-  marginLeft: 50,
-  marginTop: 50,
-  fontFamily: 'Roboto, sans-serif',
-  fontWeight: 100,
-  fontSize: 24,
-  color: 'gray'
-
-}
->>>>>>> 7a17cbd3b84e8f9058f3e4d81b2b110e3a4c0aa9
 
 const layout = new Layout()
 
