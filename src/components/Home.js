@@ -1,8 +1,10 @@
 import React from 'react'
+import { Grid } from 'semantic-ui-react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import Desk from '../assets/desk.jpg'
+import HotelSlider from './HotelSlider'
+import Header from './Header'
 const settings = {
   dots: false,
   infinite: true,
@@ -11,18 +13,25 @@ const settings = {
   autoplay: true,
   fade: true,
 }
+const container = {
+  display: 'flex',
+  justifyContent: 'right',
+  width: window.innerWidth,
+  height: 400,
+}
+const photos = {
+  alignItems: 'center'
+}
 const style = {
   textAlign: 'center'
 }
 export default props => (
-  <div>
-    <Slider {...settings}>
-      <div {...style}>
-        <img src={Desk} alt='' height={'auto'} width={window.innerWidth}/>
-      </div>
-      <div {...style}>2</div>
-      <div {...style}>3</div>
-      <div {...style}>4</div>
-    </Slider>
-  </div>
+  <Grid>
+    <Grid.Column width={6}>
+      <HotelSlider />    
+    </Grid.Column>
+    <Grid.Column width={8}>
+      <Header />  
+    </Grid.Column>
+  </Grid>
 )

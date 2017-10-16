@@ -14,6 +14,9 @@ const nav = {
   borderRadius: 2,
   cursor: 'pointer'
 }
+const segment = {
+  borderRadius: 2,
+}
 
 const navObserv = new NavObservables()
 
@@ -34,7 +37,7 @@ const NavObserver = observer (
           <Menu.Item name='map' active={navObserv.active === 'Map'} onClick={(e)=> navObserv.setActive(e.target.innerHTML)}/>
         </Menu>
   
-        <Segment style={nav}>
+        <Segment style={segment}>
         <Home />
         </Segment>
         </div>
