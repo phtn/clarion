@@ -38,7 +38,7 @@ const NavObserver = observer (
         </Menu>
   
         <Segment style={segment}>
-        <Home />
+          <Home />
         </Segment>
         </div>
       )

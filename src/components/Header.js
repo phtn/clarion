@@ -47,5 +47,13 @@ export default props => (
       Washington Crossing State Park
       <Icon name='tree' color='teal' style={icon}/>
     </Label>
+    <Label style={label}>
+      Ralph Stover State Park
+      <Icon name='tree' color='teal' style={icon}/>
+    </Label>
+    <Label style={label}>
+      The Garden of Reflection 911 Memorial
+      <Icon name='flag' color='blue' style={icon}/>
+    </Label>
   </div>
 )

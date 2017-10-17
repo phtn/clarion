@@ -24,16 +24,16 @@ export default props => (
   <div>
     <Slider {...settings}>
       <div>
-        <img src={Desk} alt='' height={'auto'} width={400} style={photos} />
+        <img src={Desk} alt='' height={'auto'} width={480} style={photos} />
       </div>
       <div>
-      <img src={Lobby} alt='' height={'auto'} width={400} style={photos} />
+      <img src={Lobby} alt='' height={'auto'} width={480} style={photos} />
       </div>
       <div>
-      <img src={Bar} alt='' height={'auto'} width={400} style={photos} />
+      <img src={Bar} alt='' height={'auto'} width={480} style={photos} />
       </div>
       <div>
-      <img src={Rest} alt='' height={'auto'} width={400} style={photos} />
+      <img src={Rest} alt='' height={'auto'} width={480} style={photos} />
       </div>
     </Slider>
   </div>

@@ -9,12 +9,14 @@ import Layout from './observables/Layout'
 
 // components
 import Nav from './components/Nav'
+import Footer from './components/Footer'
 
 
 const container = {
   display: 'flex',
   justifyContent: 'center',
   width: window.innerWidth,
+  height: '100%',
   //border: '1px solid red',
 }
 const content = {
@@ -30,7 +32,11 @@ const logo = {
   marginTop: 10,
   boxShadow: '2px 2px 2px 1px rgba(0, 0, 0, 0.2)'
 }
-
+// const footer ={
+//   position: 'absolute',
+//   bottom: 0,
+//   height: '100%'
+// }
 
 const layout = new Layout()
 
@@ -70,6 +76,9 @@ const Main = observer (
           </div>
           <div style={content}>
            <Nav />
+          </div>
+          <div >
+            <Footer/>
           </div>
         </div>
       );
