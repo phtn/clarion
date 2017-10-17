@@ -21,6 +21,7 @@ const segment = {
 const navObserv = new NavObservables()
 
 
+
 const NavObserver = observer (
   class Nav extends Component {
     render(){
@@ -38,8 +39,9 @@ const NavObserver = observer (
         </Menu>
   
         <Segment style={segment}>
-          <Home />
+          {navObserv.renderComponent}
         </Segment>
+        <br/><br/><br/>
         </div>
       )
     }

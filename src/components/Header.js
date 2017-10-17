@@ -1,6 +1,5 @@
 import React from 'react'
 import { Header, Divider, Label, Icon } from 'semantic-ui-react'
-//import Peddlers from '../assets/pvlogo.jpg'
 
 const icon = {
   marginLeft: 10

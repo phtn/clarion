@@ -4,7 +4,7 @@ import { Icon, Grid, Header } from 'semantic-ui-react'
 const container = {
   width: window.innerWidth,
   alignItems: 'center',
-  position: 'absolute',
+  position: 'fixed',
   bottom: 0,
   // backgroundColor: '#efefef',
   height: 50,
