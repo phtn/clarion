@@ -37,7 +37,7 @@ export default props => (
     
       <Grid.Column width={4} style={grid.left}>
         <a href='https://www.facebook.com/clarion.newhope.1'><Icon name='facebook' style={icon} size='large' color='grey'/></a>
-      <Icon name='instagram' style={icon} size='large' color='grey'/>
+      <a href='https://www.instagram.com/clarionnewhope/'><Icon name='instagram' style={icon} size='large' color='grey'/></a>
       <Icon name='twitter' style={icon} size='large' color='grey'/>
       </Grid.Column>
       <Grid.Column width={8} style={grid.center}>
