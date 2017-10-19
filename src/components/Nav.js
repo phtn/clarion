@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import { observer } from 'mobx-react' 
-import { Dropdown, Icon, Menu, Segment } from 'semantic-ui-react'
+import { Menu, Segment } from 'semantic-ui-react'
 import NavObservables from '../observables/Nav'
-
-import Home from './Home'
 
 const container = {
   paddingTop: 10,

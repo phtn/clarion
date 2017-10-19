@@ -21,35 +21,27 @@ class NavObservables {
         switch(this.active){
           case 'Home': {
             return <Home/>
-            break
           }
           case 'Reservations': {
             return <Reservations/>
-            break
           }
           case 'Amenities': {
             return <Amenities/>
-            break
           }
           case 'Restaurant': {
             return <Restaurant/>
-            break
           }
           case 'Events': {
             return <Events/>
-            break
           }
           case 'Destinations': {
             return <Destinations/>
-            break
           }
           case 'Activities': {
             return <Activities/>
-            break
           }
           case 'Map': {
             return <Map/>
-            break
           }
           default: 
             return <Home/>

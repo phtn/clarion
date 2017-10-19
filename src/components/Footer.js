@@ -26,10 +26,7 @@ const grid = {
     paddingRight: 45
   }
 }
-const gridCenter = {
-  textAlign: 'center',
-  // border: '1px solid red'
-}
+
 export default props => (
   <div style={container}>
     <Grid style={grid}>

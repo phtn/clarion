@@ -2,9 +2,6 @@ import React from 'react'
 import { Grid, Header, Segment, Divider, Button, Item, Icon } from 'semantic-ui-react'
 import Bed from '../assets/bed.jpg'
 
-const segment = {
-  borderRadius: 2
-}
 const reserve = {
   textAlign: 'center',
   height: 'auto',
