@@ -12,7 +12,7 @@ import Map from '../components/Map'
 class NavObservables {
   constructor(){
     extendObservable(this, {
-      active: 'Amenities',
+      active: 'Destinations',
       setActive: action((a)=> {
         this.active = a
         console.log(this.active)
