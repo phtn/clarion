@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Image, Message, Icon, Divider } from 'semantic-ui-react'
+import { Grid, Image, Message, Divider } from 'semantic-ui-react'
 import NH1 from '../assets/nh1.jpg'
 import NH2 from '../assets/nh2.jpg'
 import NH3 from '../assets/nh3.jpg'

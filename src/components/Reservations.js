@@ -1,6 +1,9 @@
 import React from 'react'
 import { Grid, Header, Segment, Divider, Button, Item, Icon } from 'semantic-ui-react'
-import Bed from '../assets/bed.jpg'
+// import Bed from '../assets/bed.jpg'
+import NK from '../assets/rNK1.jpg'
+import NDD from '../assets/rNDD1.jpg'
+import GSK from '../assets/rGSK1.jpg'
 
 const reserve = {
   textAlign: 'center',
@@ -14,10 +17,10 @@ export default props => (
   <div>
 
     <Grid>
-      <Grid.Column width={4}>
-        <img src={Bed} alt='' width={300} height='auto'/>
+      <Grid.Column width={5}>
+        <img src={NK} alt='' width={400} height='auto'/>
       </Grid.Column>
-      <Grid.Column width={8}>
+      <Grid.Column width={7}>
         <Header as='h2'>
           Single King Bed
           <Header.Subheader>
@@ -43,9 +46,7 @@ export default props => (
             <Item.Extra>
               <Icon color='green' name='check' /> Refrigerator & Microwave
             </Item.Extra>
-            <Item.Extra>
-              <Icon color='green' name='check' /> Hot Breakfast served everyday
-            </Item.Extra>
+            
           </Item.Content>
         </Header>
       </Grid.Column>
@@ -68,10 +69,10 @@ export default props => (
     </Grid>
       <Divider/>
     <Grid>
-      <Grid.Column width={4}>
-        <img src={Bed} alt='' width={300} height='auto'/>
+      <Grid.Column width={5}>
+        <img src={NDD} alt='' width={400} height='auto'/>
       </Grid.Column>
-      <Grid.Column width={8}>
+      <Grid.Column width={7}>
       <Header as='h2'>
           2 Double Beds
           <Header.Subheader>
@@ -97,9 +98,7 @@ export default props => (
             <Item.Extra>
               <Icon color='green' name='check' /> Refrigerator & Microwave
             </Item.Extra>
-            <Item.Extra>
-              <Icon color='green' name='check' /> Hot Breakfast served everyday
-            </Item.Extra>
+            
           </Item.Content>
         </Header>
       </Grid.Column>
@@ -122,11 +121,11 @@ export default props => (
     </Grid>
     <Divider/>
     <Grid>
-      <Grid.Column width={4}>
-        <img src={Bed} alt='' width={300} height='auto'/>
+      <Grid.Column width={5}>
+        <img src={NK} alt='' width={400} height='auto'/>
       </Grid.Column>
       
-    <Grid.Column width={8}>
+    <Grid.Column width={7}>
     <Header as='h2'>
         King Suite
         <Header.Subheader>
@@ -152,9 +151,7 @@ export default props => (
           <Item.Extra>
             <Icon color='green' name='check' /> Refrigerator & Microwave
           </Item.Extra>
-          <Item.Extra>
-            <Icon color='green' name='check' /> Hot Breakfast served everyday
-          </Item.Extra>
+          
         </Item.Content>
       </Header>
     </Grid.Column>
@@ -177,10 +174,10 @@ export default props => (
     </Grid>
     <Divider/>
     <Grid>
-      <Grid.Column width={4}>
-        <img src={Bed} alt='' width={300} height='auto'/>
+      <Grid.Column width={5}>
+        <img src={GSK} alt='' width={400} height='auto'/>
       </Grid.Column>
-      <Grid.Column width={8}>
+      <Grid.Column width={7}>
       <Header as='h2'>
           Double Bed Suite
           <Header.Subheader>
@@ -206,9 +203,7 @@ export default props => (
             <Item.Extra>
               <Icon color='green' name='check' /> Refrigerator & Microwave
             </Item.Extra>
-            <Item.Extra>
-              <Icon color='green' name='check' /> Hot Breakfast served everyday
-            </Item.Extra>
+            
           </Item.Content>
         </Header>
       </Grid.Column>
