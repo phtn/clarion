@@ -58,7 +58,7 @@ const Main = observer (
         <div >
         <div style={container}>
           
-          <div style={layout.nh}>
+          <div style={layout.nh} className='animated slideInLeft'>
           NEW HOPE
           </div>
           <div >
@@ -67,10 +67,10 @@ const Main = observer (
               width={layout.logoSize} 
               height={layout.logoSize} 
               style={logo}
-              className='animated fadeIn'
+              className='animated fadeInUp'
               alt=''/>
           </div>
-            <div style={layout.lv}>
+            <div style={layout.lv} className='animated slideInRight'>
               LAMBERTVILLE
             </div>
           </div>

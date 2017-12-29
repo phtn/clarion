@@ -10,11 +10,12 @@ const label = {
 export default props => (
   <div>
     <Header 
+      className='animated fadeInUp'
       as='h2' 
       content='The Clarion Inn & Suites®' 
       subheader='Located in New Hope and Lambertville'/>
     <Divider />
-    <Header as='h4'>
+    <Header as='h4' >
       The Clarion Inn & Suites® hotel in New Hope, Pennsylvania is just what you are looking for when all you need is a solid deal on a simple stay.
     </Header>
 

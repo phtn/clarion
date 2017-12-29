@@ -6,24 +6,52 @@ const container = {
   alignItems: 'center',
   position: 'fixed',
   bottom: 0,
-  // backgroundColor: '#efefef',
+  backgroundColor: '#100',
   height: 50,
-  textAlign: 'center'
+  textAlign: 'center',
+
+
 }
 const icon = {
   marginRight: 15
 }
 const grid = {
   center: {
-    textAlign: 'center'
+    textAlign: 'center',
+    paddingTop: 30,
+    color: 'tomato'
   },
   left: {
     textAlign: 'left',
-    paddingLeft: 45
+    paddingLeft: 45,
+    paddingTop: 30,
+    color: '#c4dff6',
   },
   right: {
     textAlign: 'right',
-    paddingRight: 45
+    paddingRight: 45,
+    paddingTop: 30,
+    color: '#49c0b6',
+  },
+  centerText: {
+    color: '#c4dff6',
+    fontFamily: 'Roboto, sans-serif',
+    fontWeight: 100,
+    letterSpacing: 1
+  },
+  phone: {
+    color: '#49c0b6',
+    fontFamily: 'Roboto Mono, monospace'
+  },
+  rightText: {
+    color: '#c4dff6',
+    fontFamily: 'Roboto, sans-serif',
+    fontWeight: 100,
+    fontSize: '12px',
+    marginTop: 5
+  },
+  leftText: {
+    color: '#c4dff6',
   }
 }
 
@@ -40,13 +68,13 @@ export default props => (
       <Grid.Column width={8} style={grid.center}>
         <Header as='h5'>
           <Header.Content>
-            6426 Lower York Rd New Hope, PA 18938 | 
-            <a href='tel:2158625221'> &nbsp; 215-862-5221</a>
+            <p style={grid.centerText}>6426 Lower York Rd New Hope, PA 18938  
+            <a href='tel:2158625221' style={grid.phone}> &nbsp; 215-862-5221</a></p>
           </Header.Content>
         </Header>
       </Grid.Column>
       <Grid.Column width={4} style={grid.right}>
-        <Header as='h5' content='Terms of Use'/>
+        <Header as='h5' content='Terms of Use' style={grid.rightText}/>
       </Grid.Column>
     </Grid>
   </div>
