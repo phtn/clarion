@@ -7,7 +7,6 @@ class Layout {
       logoSize: 100,
       nh: computed(()=> {
         return {
-          marginRight: 50,
           marginTop: 50,
           fontFamily: 'Great Vibes, cursive',
           fontWeight: 100,
@@ -17,7 +16,6 @@ class Layout {
       }),
       lv: computed(()=> {
         return {
-          marginLeft: 50,
           marginTop: 50,
           fontFamily: 'Great Vibes, cursive',
           fontWeight: 100,

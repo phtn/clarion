@@ -36,7 +36,7 @@ const styles = {
 
   }
 }
-const PhotosArray = [NYE,LOB1,LOB2,REST1,REST2,BAR1,BAR2,LOB1,LOB2]
+const PhotosArray = [NYE,LOB1,LOB2,REST1,REST2,BAR1,BAR2]
 const getPhotos = (arr, size) => {
   return arr.map(i=> (
     <div key={arr.indexOf(i)} styles={styles.container}>
