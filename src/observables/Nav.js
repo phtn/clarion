@@ -1,7 +1,7 @@
 import React from 'react'
 import { action, computed, extendObservable } from 'mobx'
 import Home from '../components/Home'
-import Reservations from '../components/Reservations'
+import Reservations from '../components/ReservationSlide'
 import Amenities from '../components/Amenities'
 import Restaurant from '../components/Restaurant'
 import Events from '../components/Events'
@@ -12,7 +12,7 @@ import Map from '../components/Map'
 class NavObservables {
   constructor(){
     extendObservable(this, {
-      active: 'Home',
+      active: 'Reservations',
       setActive: action((a)=> {
         this.active = a
         console.log(this.active)

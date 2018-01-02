@@ -24,7 +24,7 @@ export default props => (
     </Header>
 
     <Label style={label}>
-      Peddler's Village
+      {props.gw}
       <Icon name='street view' color='olive' style={icon}/>
     </Label>
     <Label style={label}>

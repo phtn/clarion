@@ -10,9 +10,7 @@ const reserve = {
   height: 'auto',
   borderLeft: '1px solid #eeeeee'
 }
-const items = {
-  fontSize: 12
-}
+
 export default props => (
   <div>
 
@@ -20,7 +18,7 @@ export default props => (
       <Grid.Column width={5}>
         <img src={NK} alt='' width={400} height='auto'/>
       </Grid.Column>
-      <Grid.Column width={7}>
+      <Grid.Column width={4}>
         <Header as='h2'>
           Single King Bed
           <Header.Subheader>
@@ -58,13 +56,22 @@ export default props => (
           <Button
             as='a'
             href='https://www.choicehotels.com/pennsylvania/new-hope/clarion-hotels/pa668/rates'
-            positive='true'
+            // positive='true'
             size='massive'
             attached='bottom'
-            content='Book this Room'
+            content='call 215-862-5221  '
             onClick={this.handleClick}
             onKeyPress={this.handleKeyPress}
           />
+      </Grid.Column>
+      <Grid.Column width={3} style={reserve}>
+        <br/><br/>
+        <Segment attached='top'>
+            <Header as='h3' content='5 stars' />
+            <Header as='h3' content='"Review"' />
+            <Header as='h3' content='-Author' />
+          </Segment>
+          
       </Grid.Column>
     </Grid>
       <Divider/>
@@ -72,7 +79,7 @@ export default props => (
       <Grid.Column width={5}>
         <img src={NDD} alt='' width={400} height='auto'/>
       </Grid.Column>
-      <Grid.Column width={7}>
+      <Grid.Column width={4}>
       <Header as='h2'>
           2 Double Beds
           <Header.Subheader>
@@ -110,7 +117,7 @@ export default props => (
           <Button
             as='a'
             href='https://www.choicehotels.com/pennsylvania/new-hope/clarion-hotels/pa668/rates'
-            positive='true'
+            // positive='true'
             size='massive'
             attached='bottom'
             content='Book this Room'
@@ -125,7 +132,7 @@ export default props => (
         <img src={NK} alt='' width={400} height='auto'/>
       </Grid.Column>
       
-    <Grid.Column width={7}>
+    <Grid.Column width={4}>
     <Header as='h2'>
         King Suite
         <Header.Subheader>
@@ -177,7 +184,7 @@ export default props => (
       <Grid.Column width={5}>
         <img src={GSK} alt='' width={400} height='auto'/>
       </Grid.Column>
-      <Grid.Column width={7}>
+      <Grid.Column width={4}>
       <Header as='h2'>
           Double Bed Suite
           <Header.Subheader>

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { observer } from 'mobx-react'
 import Clarion from './clarion.jpg'
 import './animate.css'
+import './animated.css'
 import 'semantic-ui-css/semantic.min.css'
 
 // observables
@@ -11,26 +12,31 @@ import Layout from './observables/Layout'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
 
+import Pattern from './assets/pattern.png'
 
 const container = {
   display: 'flex',
   justifyContent: 'center',
-  width: window.innerWidth,
-  height: '100%',
+  // width: window.innerWidth,
+  // height: window.innerHeight,
   //border: '1px solid red',
 }
 const content = {
-  display: 'flex',
+  // display: 'flex',
   // alignItems: 'center',
-  justifyContent: 'center',
-  height: window.innerHeight,
-  width: window.innerWidth
+  // justifyContent: 'center',
+  // height: window.innerHeight,
+  // width: window.innerWidth
 }
 const logo = {
   borderRadius: 200,
   //border: '2px solid gray'
   marginTop: 10,
   boxShadow: '2px 2px 2px 1px rgba(0, 0, 0, 0.2)'
+}
+const bg = {
+  background: `url(${Pattern})`,
+  height: window.innerHeight
 }
 // const footer ={
 //   position: 'absolute',
@@ -55,11 +61,11 @@ const Main = observer (
     }
     render() {
       return (
-        <div >
+        <div style={bg}>
         <div style={container}>
           
           <div style={layout.nh} className='animated slideInLeft'>
-          NEW HOPE
+          New Hope
           </div>
           <div >
             <img 
@@ -71,13 +77,13 @@ const Main = observer (
               alt=''/>
           </div>
             <div style={layout.lv} className='animated slideInRight'>
-              LAMBERTVILLE
+              Lambertville
             </div>
           </div>
           <div style={content}>
            <Nav />
           </div>
-          <div >
+          <div>
             <Footer/>
           </div>
         </div>

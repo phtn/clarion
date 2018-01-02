@@ -1,0 +1,12 @@
+.leftSegment {
+    animation-delay: .2s;
+    animation-duration: .5s;
+}
+.rightSegment {
+    animation-delay: .4s;
+    animation-duration: .5s;
+}
+.imageSegment {
+    animation-delay: .3s;
+    animation-duration: .4s;
+}

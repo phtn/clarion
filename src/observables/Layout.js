@@ -9,7 +9,7 @@ class Layout {
         return {
           marginRight: 50,
           marginTop: 50,
-          fontFamily: 'Roboto, sans-serif',
+          fontFamily: 'Great Vibes, cursive',
           fontWeight: 100,
           fontSize: this.getWidth(this.width),
           color: 'gray'
@@ -19,7 +19,7 @@ class Layout {
         return {
           marginLeft: 50,
           marginTop: 50,
-          fontFamily: 'Roboto, sans-serif',
+          fontFamily: 'Great Vibes, cursive',
           fontWeight: 100,
           fontSize: this.getWidth(this.width),
           color: 'gray'
@@ -27,17 +27,24 @@ class Layout {
       }),
       getWidth: action((width)=> {
         if (this.width < 500){
-          return 0
+          return 20
         } else {
-          return 24
+          return 30
         }
-
       }),
+      
+      
       resizedWidth: action((width)=> {
         this.width = width
-      })
+      }),
+      
+      
 
     })
   }
 }
 export default Layout
+
+// gm notes
+// reviews slide
+//
