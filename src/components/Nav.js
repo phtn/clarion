@@ -18,7 +18,8 @@ const styles = {
   },
   item: {
     fontFamily: 'Roboto, sans-serif',
-    fontWeight: 100,
+    fontWeight: 400,
+    fontSize: 12,
     letterSpacing: 1
   }
 }
