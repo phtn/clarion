@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { observer } from 'mobx-react'
 import Layout from '../observables/Layout'
-import { Grid, Header, Button } from 'semantic-ui-react'
+import { Grid, Header, Button, Icon } from 'semantic-ui-react'
 
 const container = {
   // width: window.innerWidth,
@@ -73,13 +73,13 @@ const footer = observer (
       })
     }
     checkWidth(width){
-      if (width < 650){
+      if (width < 750){
         return(
           <Grid style={grid} stretched>
           <Grid.Column width={16} style={grid.center}>
             <Header as='h2'>
               <Header.Content>
-                <a href='tel:2158625221' style={grid.phone}> &nbsp; 215-862-5221</a>
+                <a href='tel:2158625221' style={grid.phone}><Icon name='call'/> 215-862-5221</a>
               </Header.Content>
             </Header>
           </Grid.Column>
@@ -99,7 +99,7 @@ const footer = observer (
           <Grid.Column width={8} style={grid.center}>
             <Header as='h5'>
               <Header.Content>
-                <p style={grid.centerText}>6426 Lower York Rd New Hope, PA 18938> <a href='tel:2158625221' style={grid.phone}> &nbsp; 215-862-5221</a></p>
+                <p style={grid.centerText}>6426 Lower York Rd New Hope, PA 18938 <a href='tel:2158625221' style={grid.phone}> &nbsp; 215-862-5221</a></p>
               </Header.Content>
             </Header>
           </Grid.Column>
