@@ -26,7 +26,7 @@ class NavObservables {
             return <Reservations/>
           }
           case 'Amenities': {
-            return <Amenities/>
+            return <Reservations/>
           }
           case 'Restaurant': {
             return <Restaurant/>
