@@ -19,7 +19,7 @@ import NYE from '../assets/nye.jpg'
 const settings = {
   dots: true,
   infinite: true,
-  speed: 500,
+  speed: 1000,
   arrows: false,
   autoplay: true,
   autoplaySpeed: 5000,

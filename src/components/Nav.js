@@ -6,7 +6,8 @@ import LayoutObservables from '../observables/Layout'
 const styles = {
   container: {
     paddingTop: 10,
-    margin: 20
+    marginLeft: 20,
+    marginRight: 20
   },
   nav: {
     cursor: 'pointer',
